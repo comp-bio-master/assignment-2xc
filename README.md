@@ -5,7 +5,7 @@ Complete Exercise 1.10.4 Data Explorer (data from Buzzard *et al.*, 2016), and s
 
 Hints:
 
-* Start by cloning this repository to your computer (copy the link from the green button on the upper right, then goto your home dir in your terminal and type `git clone LINKTHATYOUCOPIED`
+* Start by cloning this repository to your computer (copy the link from the green button on the upper right, then goto your home dir in your terminal and type `git clone LINKTHATYOUCOPIED`)
 
 * **_I highly recommend that you create your script in a text document in either Notepad++ or BBedit_**.  
 * Make a copy of the `Buzzard2015_pseudo.md` document and a give it a new name as requested in the exercise or of your choosing.  It should end with an `.sh`
