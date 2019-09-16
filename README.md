@@ -1,13 +1,14 @@
 # CSB_Ex_1.10.4
 
 ### Extra Credit, worth 1 whole assignment (Due 09/20/2019):
-Complete Exercise 1.10.4 Data Explorer (data from Buzzard *et al.*, 2016), and submit script by updating your repository. You may work in groups but each student must submit their own work.
+Complete Exercise 1.10.4 Data Explorer (data from Buzzard *et al.*, 2016), and submit script by updating your repository (see below). You may work in groups but each student must submit their own work.
 
 Hints:
 
 * **_I highly recommend that you create your script in a text document in either Notepad++ or BBedit_**.  
 
-* Start by copying and pasting pseudo code into your script
+* Start by cloning this repository to your computer
+* Make a copy of the `Buzzard2015_pseudo.md` document and a give it a new name as requested in the exercise or of your choosing.  It should end with an `.sh`
   * "Comment" the pseudo code using `#`
 * Add a shebang!
 * Use your terminal to play in your sandbox and construct/troubleshoot code
