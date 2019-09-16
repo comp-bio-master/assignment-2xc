@@ -5,16 +5,30 @@ Complete Exercise 1.10.4 Data Explorer (data from Buzzard *et al.*, 2016), and s
 
 Hints:
 
-* **_I highly recommend that you create your script in a text document in either Notepad++ or BBedit_**.  
-
 * Start by cloning this repository to your computer
+* Copy the data requried for this exercise to the cloned repository, which is now a directory in your home dir.
+* **_I highly recommend that you create your script in a text document in either Notepad++ or BBedit_**.  
 * Make a copy of the `Buzzard2015_pseudo.md` document and a give it a new name as requested in the exercise or of your choosing.  It should end with an `.sh`
   * "Comment" the pseudo code using `#`
 * Add a shebang!
-* Use your terminal to play in your sandbox and construct/troubleshoot code
+* Use your terminal to play in this repository and construct/troubleshoot code
 * Copy and paste working code into your script in your text editor
 * I have noticed that the Win10-Ubuntu terminal does not like when you copy properly formatted code with leading tabs and spaces from your script in the text editor and paste it at the command line
   * You can, however, copy and paste the lines without the leading tabs and spaces
   * You can also create the script in the terminal using `nano` and paste in your properly formatted code to then run the script
     * Win10 only, it is critical that you do not modify files in your Ubuntu directory structure with Win10
 	  * You can, however, move to your Win10 directory structure from the Win10-Ubunutu terminal and manipulate files as you wish `cd /mnt/c/Users/YOURUSERNAME`
+
+### To `push` your changes to your repository on GitHub, and thus submit the assigment, do the following
+
+* change directories to the directory for this assignment
+* type the following:
+```
+git add *
+git commit -m "updating my assignment"
+git push origin master
+```
+
+Note that 
+* you can change the `commit` message to whatever you want (the part in quotations, but keep it brief
+* you will have to provide your github username and password for the `push` to `origin master`
