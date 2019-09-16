@@ -1,6 +1,6 @@
 # CSB_Ex_1.10.4
 
-### Extra Credit, worth 1 whole assignment:
+### Extra Credit, worth 1 whole assignment (Due 09/20/2019):
 Complete Exercise 1.10.4 Data Explorer (data from Buzzard *et al.*, 2016), and submit script by updating your repository. You may work in groups but each student must submit their own work.
 
 Hints:
