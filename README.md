@@ -78,7 +78,7 @@ Maximum value:
 
 ---
 
-### To `push` your changes to your repository on GitHub, and thus submit the assigment, do the following
+### To `push` your changes from your local copy of the repository to GitHub, do the following:
 
 * change directories to the repository directory for this assignment
 * type the following:
@@ -88,7 +88,7 @@ git commit -m "updating my assignment"
 git push
 ```
 
-this can be done repeatedly.
+this can be done repeatedly, but you must do it at least once to submit the assignment.  I can't see any changes that you've made to the repo until you push the changes to github.
 
 Note that 
 * you can change the `commit` message to whatever you want (the part in quotations, but keep it brief
