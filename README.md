@@ -5,7 +5,7 @@ Complete Exercise 1.10.4 Data Explorer (data from Buzzard *et al.*, 2016), and s
 
 ---
 
-Buzzard et al. (2016) collected data on the growth of a forest in Costa Rica. In the file Buzzard2015_data.csv you will find a subset of their data, including taxonomic information, abundance, and biomass of trees.
+Buzzard et al. (2016) collected data on the growth of a forest in Costa Rica. In the file `Buzzard2015_data.csv` you will find a subset of their data, including taxonomic information, abundance, and biomass of trees.
 
 1. Write a script that, for a given CSV file and column number, prints
 	● the corresponding column name;
