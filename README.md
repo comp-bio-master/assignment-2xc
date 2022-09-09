@@ -85,7 +85,7 @@ Maximum value:
 ```
 git add *
 git commit -m "updating my assignment"
-git push origin master
+git push
 ```
 
 this can be done repeatedly.
