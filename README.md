@@ -35,6 +35,8 @@ Maximum value:
 14897.29471
 ```
 
+Note that in the example above, the script `explore.sh` accepts two arguments: the name of the file and the index number of the column
+
 ---
 
 Hints:
