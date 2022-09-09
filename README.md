@@ -1,13 +1,16 @@
 # CSB_Ex_1.10.4
 
-### Extra Credit, worth 1 whole assignment (Due 09/11/2020):
+### Extra Credit, worth 1 whole assignment:
+
 Complete Exercise 1.10.4 Data Explorer (data from Buzzard *et al.*, 2016), and submit script by updating your repository (see below). You may work in groups but each student must submit their own work.
 
 ---
 
-Buzzard et al. (2016) collected data on the growth of a forest in Costa Rica. In the file `Buzzard2015_data.csv` you will find a subset of their data, including taxonomic information, abundance, and biomass of trees.
+#### Exercise 1.10.4 Data Explorer
 
-1. Write a script that, for a given CSV file and column number, prints
+Buzzard et al. (2016) collected data on the growth of a forest in Costa Rica. In the file `Buzzard2015_data.csv`, you will find a subset of their data, including taxonomic information, abundance, and biomass of trees.
+
+Write a script named `explore.sh` that, for a given CSV file and column number, prints
 	● the corresponding column name;
 	● the number of distinct values in the column;
 	● the minimum value;
