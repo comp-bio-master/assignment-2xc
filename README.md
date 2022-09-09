@@ -65,7 +65,7 @@ Maximum value:
 ```
 
 * **_I highly recommend that you create your script in a text document in either Notepad++ or BBedit_**.  
-* Make a copy of the `Buzzard2015_pseudo.md` document and a give it a new name as requested in the exercise or of your choosing.  It should end with an `.sh`
+* Make a copy of the `Buzzard2015_pseudo.md` document and rename it `explore.sh`.  
   * "Comment" the pseudo code using `#`
 * Add a shebang!
 * Use your terminal to construct/troubleshoot code
