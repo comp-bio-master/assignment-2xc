@@ -42,9 +42,10 @@ Note that in the example above, the script `explore.sh` accepts two arguments: t
 Hints:
 
 * Start by cloning this repository to your computer 
-  * copy the link from the green button on the upper right of this webpage
+  * copy the SSH (not HTML) link from the green button on the upper right of this webpage
   * goto your home dir in your terminal and type `git clone LINKTHATYOUCOPIED`)
     * replace LINKTHATYOUCOPIED with the link that you copied from the green button
+    * if you are encountering errors here, then you may need to [set up your ssh key](https://github.com/tamucc-comp-bio/how_to/blob/main/howto_sshkeys.md), which we did in lecture 0
 
 * Then copy the file `Buzzard2015_data.csv` in `CSB/unix/data` to your local clone of this repo.  
 
@@ -79,4 +80,4 @@ this can be done repeatedly, but you must do it at least once to submit the assi
 
 Note that 
 * you can change the `commit` message to whatever you want (the part in quotations, but keep it brief
-* you will have to provide your github username and password for the `push` to `origin master`
+* if you [set up your ssh key](https://github.com/tamucc-comp-bio/how_to/blob/main/howto_sshkeys.md) successfully in lecture 0, then you should not have to provide your github username and password for the `git` commands 
