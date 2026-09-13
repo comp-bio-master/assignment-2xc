@@ -42,17 +42,11 @@ Note that in the example above, the script `explore.sh` accepts two arguments: t
 Hints:
 
 * Start by cloning this repository to your computer 
-  * copy the SSH (not HTML) link from the green button on the upper right of this webpage
-  * goto your home dir in your terminal and type `git clone LINKTHATYOUCOPIED`)
-    * replace LINKTHATYOUCOPIED with the link that you copied from the green button
-    * if you are encountering errors here, then you may need to [set up your ssh key](https://github.com/tamucc-comp-bio/how_to/blob/main/howto_sshkeys.md), which we did in lecture 0
-
-* Then copy the file `Buzzard2015_data.csv` in `CSB/unix/data` to your local clone of this repo.  
 
 * **_I highly recommend that you create your script in a text document in either Notepad++ or BBedit_**.  
-* Make a copy of `Buzzard2015_pseudo.md` from `CSB/unix/solutions` and put it in your clone of this repo and rename it `explore.sh`.  
+* Make a copy of `Buzzard2015_pseudo.md` and rename it `explore.sh`.  
   * "Comment" the pseudo code using `#`
-* Copy everything in `explore.sh` to a text editor file to make troubleshooting easier
+* Either open `explore.sh` in a text editor or copy everything in `explore.sh` to a text editor file to make troubleshooting easier
 	* Add a shebang!
 * Use your terminal to construct/troubleshoot code
 	* as you get code to work, copy and save it into your text editor
@@ -61,23 +55,22 @@ Hints:
 * I have noticed that the Win-Ubuntu terminal does not like when you copy properly formatted code with leading tabs and spaces from your script in the text editor and paste it at the command line
   * You can, however, copy and paste the lines without the leading tabs and spaces
   * You can also create the script in the terminal using `nano` and paste in your properly formatted code to then run the script
-    * Win only, it is critical that you do not modify files in your Ubuntu directory structure with Win10
-	  * You can, however, move to your Win10 directory structure from the Win10-Ubunutu terminal and manipulate files as you wish `cd /mnt/c/Users/YOURUSERNAME`, where YOURUSERNAME is your user name on win 10, which can be different than your user name in Ubuntu.
+   
 
 ---
 
 ### To `push` your changes from your local copy of the repository to GitHub, do the following:
 
-* change directories to the repository directory for this assignment
-* type the following:
-```
-git add *
-git commit -m "updating my assignment"
-git push
-```
+* be sure that your `pwd` is in this assignment's repo copy on your computer
+	* type the following:
+	```
+	git add --all
+	git commit -m "updating my assignment"
+	git push
+	```
 
 this can be done repeatedly, but you must do it at least once to submit the assignment.  I can't see any changes that you've made to the repo until you push the changes to github.
 
 Note that 
 * you can change the `commit` message to whatever you want (the part in quotations, but keep it brief
-* if you [set up your ssh key](https://github.com/tamucc-comp-bio/how_to/blob/main/howto_sshkeys.md) successfully in lecture 0, then you should not have to provide your github username and password for the `git` commands 
+
